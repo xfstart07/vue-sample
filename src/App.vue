@@ -4,6 +4,13 @@
     <h1>{{ msg }}</h1>
 
     <first></first>
+
+  <router-view></router-view>
+
+  <hr>
+
+    <router-link to="/first">firstPage</router-link>
+    <router-link to="/second">secondPage</router-link>
   </div>
 </template>
 
