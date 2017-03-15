@@ -9,9 +9,9 @@
 
   <hr>
 
-    <router-link to="/">homePage</router-link>
-    <router-link to="/first">firstPage</router-link>
-    <router-link to="/second">secondPage</router-link>
+    <router-link class="el-button el-button--success" to="/">homePage</router-link>
+    <router-link class="el-button el-button--danger" to="/first">firstPage</router-link>
+    <router-link class="el-button el-button--warning" to="/second">secondPage</router-link>
   </div>
 </template>
 
@@ -30,6 +30,8 @@ export default{
 }
 </script>
 
-<style lang="sass">
-
+<style lang="scss">
+  a {
+    text-decoration: none;
+  }
 </style>
