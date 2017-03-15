@@ -9,6 +9,7 @@
 
   <hr>
 
+    <router-link to="/">homePage</router-link>
     <router-link to="/first">firstPage</router-link>
     <router-link to="/second">secondPage</router-link>
   </div>

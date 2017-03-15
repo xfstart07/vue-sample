@@ -1,13 +1,13 @@
 <template>
   <div class="second">
-    <h1>I am another page</h1>
-    <a href="#">{{ author }}</a>
-
-    <ul>
-      <li v-for="article in articles">
+    <el-card class="box-card">
+      <div class="clearfix">
+        <h4 class="articles-title">豆瓣电影排行榜</h4>
+      </div>
+      <div class="text item" v-for="article in articles">
         {{ article.title }}
-      </li>
-    </ul>
+      </div>
+    </el-card>
   </div>
 </template>
 
@@ -31,6 +31,9 @@ export default {
   }
 }
 </script>
-<style lang="sass">
-
+<style lang="scss">
+  .articles-title {
+    color: #20A0FF;
+    line-height: 36px;
+  }
 </style>
